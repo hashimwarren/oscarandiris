@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Oscar & Iris</title>
+		<title>Photos - Oscar & Iris</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -43,29 +43,20 @@
 					<div id="banner" class="box container">
 						<div class="row">
 							<div class="col-7 col-12-medium">
-								<h2>Here are the details </h2>
-								<h3>
-									<ul>
-										<li><strong>Date: </strong>June 22nd, 2019 </li>
-										<li><strong>Time: </strong>11AM - 4PM</li>
-										<li><strong>Location: </strong>Riverbank State Park</li>
-										<li><strong>Address: </strong><a href="https://goo.gl/maps/JPaFtDsdy6n">679 Riverside Dr, New York City</a></li>
-
-									</ul>
-
-								</h3>
+								<h2>Submit your family photos</h2>
+								<p>You, your children, your parents - send your photos for the family slideshow</p>
 
 							</div>
 							<div class="col-5 col-12-medium">
-								<form name="rsvp" method="POST" data-netlify="true">
+								<form name="photos" method="POST" data-netlify="true">
 									<label for="email">Email</label>
 									<input type="email" name="email" id="email">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name">
-									<label for="phone">Phone</label>
-									<input type="text" name="phone" id="phone">
+									<label for="photos">Photos</label>
+									<input type="file" name="photos" id="photos">
 
-									<button type="submit" class="button medium">RSVP</button>
+									<button type="submit" class="button medium">Upload</button>
 
 								</form>
 
